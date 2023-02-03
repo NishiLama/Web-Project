@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<h1>Course Registration Form</h1>
+<form action="http://localhost:5500/firstapp/">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+            <tr>
+                <td><label>Name</label></td>
+                <td> <input type="text" name="name" placeholder="Enter your Name" size="15" maxlength="20"><!--<br>--size=resize the box maxlength=minium charecter--></td>
+            </tr>
+            <tr>
+                <td><label>Surname</label></td>
+                <td> <input type="text" name="lastname" placeholder="Enter your LastName" size="15"></td>
+            </tr>
+            <tr>
+                <td> <label>Mobile Number</label></td>
+                <td> <input type="tel" name="contact" placeholder="Enter 10 digits Number" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" name="mail" placeholder="Enetr yor Email ID" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password" name="pwd" placeholder="Minimum 5 Characters" size="15"></td>
+            </tr>
+            <tr>
+                <td> <label>Confirm Password</label></td>
+                <td><input type="password" name="cpwd" placeholder="Minimum 5 Characters" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>DOB</label></td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td> <input type="radio" name="gender" value="M">Male<!--To tell html what value to be sent-->
+                    <input type="radio" name="gender" value="F">Female
+                    <input type="radio" name="gender" value="C">Custom</td>
+            </tr>
+            <tr>
+                <!--To create a drop down menu-->
+                <td><label>Select Country</label></td>
+                <td> <select name="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="China">China</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Sri Lankha">Sri Lankha</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Malasia">Malasiya</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Ukarane">Ukarane</option>
+                    <option value="Russia">Russia</option>    
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Upload Picture</label></td>
+                <td><input type="file" name="picture"></td>
+            </tr>
+            <tr>
+                <td><input type="reset"><!--Name not required--></td>
+            </tr>
+        </table>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Course Details</legend>
+        <table>
+            <tr>
+                <td><label>Select Course</label></td>
+                <td> <select name="course">
+                    <option value="pfs">Python Fullstack</option>
+                    <option value="jfs">Java Fullstack</option>
+                    <option value="cj">Core Java</option>
+                    <option value="pds">Python for Data Science</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Deliver Mode</label></td>
+                <td><input type="checkbox" name="mode1" value="online">ONLINE
+                    <input type="checkbox" name="mode2" value="offline">OFFLINE</td>
+            </tr>
+       
+            <tr>
+                <td><label>Comments</label></td>
+                <!--Text area tag-->
+                <td><textarea rows="10" cols="50"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <table>
+        <tr>
+             <!--type will make image as submit i.e clickable-->
+            <img src="https://www.freeiconspng.com/uploads/blue-submit-button-png-3.png" 
+            alt="Image not Found" height="65" width="85" type="input">
+        </tr>
+    </table>
+   
+</form>

@@ -1,0 +1,28 @@
+
+*{
+  background-color:powderblue;
+  /*font-family: 'Courier New', Courier, monospace;*/
+ /* text-align: center;*/
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(62, 94, 70);
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(83, 57, 87) ;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(66, 94, 12);
+}
+
+.bold{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#id{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
